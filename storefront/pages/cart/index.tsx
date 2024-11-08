@@ -205,7 +205,7 @@ const Cart = () => {
       couponCode: couponCode,
       totalAmount: totalPrice,
       totalDiscountAmount: discountMoney,
-      checkoutItemPostVms: checkoutItems,
+      checkoutItemVms: checkoutItems,
     };
     createCheckout(checkout)
       .then((res) => {
